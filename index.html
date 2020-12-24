@@ -8,5 +8,20 @@
     <img src="/css/images/王一博.jpg"/><br/>
     <b>绝对路径显示图片:https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1413463175,4186569822&fm=26&gp=0.jpg</b><br/>
     <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1413463175,4186569822&fm=26&gp=0.jpg"/>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '202012241856', // 可选。默认为 location.href
+  owner: 'remicheers',
+  repo: 'remicheers.github.io',
+  oauth: {
+    client_id: '122e683fae4ea6db91d2',
+    client_secret: '1c26367641190d3c3de599dd07075a24992fb1cb',
+  },
+})
+gitment.render('container')
+</script>
 </body>
 </html>
